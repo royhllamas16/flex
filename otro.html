@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varias Columnas de Elementos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: red;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .column {
+            float: left;
+            width: 30%; /* Ancho de cada columna */
+            margin-right: 5%; /* Margen entre las columnas */
+        }
+
+        .column:last-child {
+            margin-right: 0; /* Elimina el margen de la última columna */
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            clear: both; /* Limpia el float */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Varias Columnas de Elementos</h1>
+        <p>Un ejemplo de disposición de columnas sin Flexbox.</p>
+    </header>
+
+    <div class="container" >
+        <div class="column">
+            <h2>Columna 1</h2>
+            <p>Contenido de la columna 1.</p>
+        </div>
+
+        <div class="column">
+            <h2>Columna 2</h2>
+            <p>Contenido de la columna 2.</p>
+        </div>
+
+        <div class="column">
+            <h2>Columna 3</h2>
+            <p>Contenido de la columna 3.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disposición Vertical con Modelo de Cajas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+            margin-bottom: 10px; /* Agregar espacio entre párrafos */
+        }
+
+        .button {
+            display: block; /* Hacer que el botón sea de bloque para ocupar todo el ancho */
+            background-color: #0074D9;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px; /* Agregar espacio arriba del botón */
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Disposición Vertical con Modelo de Cajas</h1>
+        <p>Un ejemplo de disposición vertical sin Flexbox.</p>
+    </header>
+
+    <div class="container">
+        <h2>Título de Contenido 1</h2>
+        <p>Este es el primer elemento de contenido.</p>
+        <a href="#" class="button">Botón 1</a>
+    </div>
+
+    <div class="container">
+        <h2>Título de Contenido 2</h2>
+        <p>Este es el segundo elemento de contenido.</p>
+        <a href="#" class="button">Botón 2</a>
+    </div>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>
